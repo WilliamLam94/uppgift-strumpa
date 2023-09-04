@@ -1,17 +1,16 @@
 * {
-	margin: 0px;
-	padding: 0px;
-	border: 0px;
+	margin: 0;
+	padding: 0;
+	border: 0;
 	color: black;
 	text-decoration: none;
 }
 
 body {
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-inline: 10rem;
 }
 
-.navbar {
+.navbar-wrapper {
 	display: flex;
 	justify-content: space-between;
 }
@@ -28,9 +27,15 @@ ul {
 	gap: 10px;
 }
 
+.image-container {
+	height: 25rem;
+}
+
 .top-img {
-	height: 300px;
+	height: 100%;
 	width: 100%;
+	object-fit: cover;
+	object-position: 100% 13%;
 }
 
 main {
@@ -40,13 +45,18 @@ main {
 
 .content-socks {
 	display: flex;
-	justify-content: space-around;
-	margin-top: 25px;
+	margin-block-start: 1.5rem;
+	gap: 1.5rem;
 }
 
 p {
-	margin-bottom: 20px;
-	padding-right: 20px;
+	margin-block-end: 1.5rem;
+}
+
+.content-image {
+	width: 30rem;
+	height: 20rem;
+	object-fit: cover;
 }
 
 /*About*/
