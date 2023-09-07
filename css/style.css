@@ -24,7 +24,7 @@ ul {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
-	gap: 10px;
+	gap: 1rem;
 }
 
 .image-container {
@@ -35,12 +35,12 @@ ul {
 	height: 100%;
 	width: 100%;
 	object-fit: cover;
-	object-position: 100% 13%;
+	object-position: 100% 18%;
 }
 
 main {
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
 }
 
 .content-socks {
@@ -62,12 +62,18 @@ p {
 /*About*/
 
 .jag {
-	width: 20%;
+	height: 20rem;
 }
 
 .content-about {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin-top: 25px;
+	margin-top: 1.5rem;
+}
+
+.about-paragraf {
+	display: flex;
+	flex-direction: column;
+	margin-inline-start: 2rem;
 }
