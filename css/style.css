@@ -90,3 +90,9 @@ p {
 	height: 15rem;
 	width: 15rem;
 }
+
+th {
+	font-weight: lighter;
+	display: flex;
+	flex-direction: column;
+}
