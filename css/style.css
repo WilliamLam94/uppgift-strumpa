@@ -91,6 +91,25 @@ p {
 	width: 15rem;
 }
 
+.content-blog {
+	display: flex;
+	margin-top: 1.5rem;
+}
+
+.blog-paragraf {
+	margin-inline-start: 1.5rem;
+	margin-inline-end: 20rem;
+}
+
+.comment-section {
+	display: flex;
+	align-items: flex-end;
+}
+
+.comments {
+	margin-block-end: 0rem;
+}
+
 th {
 	font-weight: lighter;
 	display: flex;
