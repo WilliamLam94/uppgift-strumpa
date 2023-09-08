@@ -68,7 +68,7 @@ p {
 
 .mario {
 	height: 24rem;
-	width: 20rem;
+	width: 40rem;
 }
 
 .content-about {
@@ -113,15 +113,48 @@ aside {
 /* Contact*/
 
 #name {
-	border: solid;
-	border-radius: 0.5rem;
+	border: solid black;
 }
 #textarea {
-	border: solid;
-	border-radius: 0.5rem;
+	border: solid black;
 }
 
 button {
-	border: solid;
-	border-radius: 0.5rem;
+	padding: 1rem;
+	border: solid black;
 }
+
+.line {
+	border: 0.5px solid gray;
+	margin-block-end: 2rem;
+}
+
+/*
+to do
+
+general
+
+space between top navbar
+spacing between navbar and top img
+line margin too much
+text shoud be same size as logo
+
+index
+home in navbar is not bold
+
+About
+about in navbar is not bold
+missing line footer
+
+Blog
+Blog navbar is not bold
+create 2 sections in aside
+
+Contact
+Bold styler Contact
+line footer
+
+
+Websidans namn - skall vara länkat till "home"-sidan. 
+
+*/
