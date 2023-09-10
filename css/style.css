@@ -35,6 +35,10 @@ a {
 	padding-block-end: 0.5rem;
 }
 
+.navbar-button {
+	font-weight: bold;
+}
+
 .image-container {
 	height: 25rem;
 }
@@ -135,29 +139,7 @@ button {
 /*
 to do
 
-general
-
-x space between top navbar
-x spacing between navbar and top img
-line margin too much
-text shoud be same size as logo
-
-index
-home in navbar is not bold
-
-About
-about in navbar is not bold
-missing line footer
-
 Blog
-Blog navbar is not bold
 create 2 sections in aside
-
-Contact
-Bold styler Contact
-line footer
-
-
-Websidans namn - skall vara länkat till "home"-sidan. 
 
 */
