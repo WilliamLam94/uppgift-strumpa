@@ -155,6 +155,7 @@ aside {
 	margin-block-end: 1rem;
 	display: flex;
 	flex-wrap: wrap;
+	gap: 0.1rem;
 }
 
 .tag-item {
