@@ -116,13 +116,17 @@ p {
 	margin-inline-start: 1.5rem;
 }
 
+.comments {
+	margin-block-start: 1rem;
+}
+
 ul {
 	list-style-type: none;
 }
 
 .wrapper {
 	display: flex;
-	gap: 15rem;
+	gap: 10rem;
 	margin-block-start: 2.5rem;
 }
 
@@ -131,7 +135,7 @@ ul {
 }
 
 aside {
-	margin-inline-end: 10rem;
+	margin-inline-end: 5rem;
 }
 
 .sidebar-header {
@@ -149,6 +153,14 @@ aside {
 
 .sidebar-tags {
 	margin-block-end: 1rem;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tag-item {
+	background-color: gray;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
 }
 
 /* Contact*/
@@ -168,6 +180,7 @@ button {
 .line {
 	border: 0.5px solid gray;
 	margin-block-end: 1.5rem;
+	margin-block-start: 10rem;
 }
 
 /*
