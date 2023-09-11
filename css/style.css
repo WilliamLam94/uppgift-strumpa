@@ -126,7 +126,7 @@ ul {
 
 .wrapper {
 	display: flex;
-	gap: 10rem;
+	gap: 15rem;
 	margin-block-start: 2.5rem;
 }
 
@@ -167,13 +167,16 @@ aside {
 
 #name {
 	border: solid black;
+	width: 100%;
 }
 #textarea {
 	border: solid black;
+	resize: none;
+	width: 100%;
 }
 
 button {
-	padding: 1rem;
+	padding: 0.5rem;
 	border: solid black;
 }
 
@@ -183,10 +186,6 @@ button {
 	margin-block-start: 10rem;
 }
 
-/*
-to do
-
-Blog
-create 2 sections in aside
-
-*/
+footer {
+	margin-block-end: 5rem;
+}
