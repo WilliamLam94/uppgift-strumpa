@@ -23,7 +23,7 @@ h1 {
 	font-size: 2rem;
 }
 
-ul {
+.navbar-list {
 	display: flex;
 	flex-direction: row;
 	justify-content: flex-end;
@@ -105,16 +105,22 @@ p {
 
 .content-blog {
 	display: flex;
-	gap: 2rem;
 }
 
 .blog-paragraf {
 	margin-inline-start: 1.5rem;
-	width: 45%;
+	/*width: 45%;*/
 }
 
 aside {
-	width: 10%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.content-catagories {
+	display: flex;
+	flex-direction: column;
 }
 
 /* Contact*/
