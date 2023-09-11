@@ -39,6 +39,11 @@ a {
 	font-weight: bold;
 }
 
+.nav-line {
+	font-weight: 300;
+	font-size: 2rem;
+}
+
 .image-container {
 	height: 25rem;
 }
@@ -109,18 +114,41 @@ p {
 
 .blog-paragraf {
 	margin-inline-start: 1.5rem;
-	/*width: 45%;*/
+}
+
+ul {
+	list-style-type: none;
+}
+
+.wrapper {
+	display: flex;
+	gap: 15rem;
+	margin-block-start: 2.5rem;
+}
+
+.blog-main {
+	margin: 0;
 }
 
 aside {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+	margin-inline-end: 10rem;
 }
 
-.content-catagories {
-	display: flex;
-	flex-direction: column;
+.sidebar-header {
+	margin-block-end: 1rem;
+}
+
+.sidebar-list {
+	margin-block-end: 1rem;
+	font-weight: bold;
+}
+
+.sidebar-item {
+	color: gray;
+}
+
+.sidebar-tags {
+	margin-block-end: 1rem;
 }
 
 /* Contact*/
