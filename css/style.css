@@ -35,6 +35,10 @@ a {
 	padding-block-end: 0.5rem;
 }
 
+a:hover {
+	font-weight: bold;
+}
+
 .navbar-button {
 	font-weight: bold;
 }
@@ -135,33 +139,39 @@ ul {
 }
 
 aside {
-	margin-inline-end: 5rem;
+	margin-inline-end: 15rem;
+}
+
+h3 {
+	font-size: 1.5rem;
 }
 
 .sidebar-header {
-	margin-block-end: 1rem;
+	margin-block-end: 2rem;
 }
 
 .sidebar-list {
-	margin-block-end: 2.5rem;
+	margin-block-end: 10rem;
 	font-weight: bold;
+	width: 10rem;
 }
 
 .sidebar-item {
 	color: gray;
+	font-size: 1.5rem;
 }
 
 .sidebar-tags {
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
-	gap: 0.2rem;
+	gap: 0.5rem 1rem;
 }
 
 .tag-item {
 	background-color: gray;
 	padding: 0.5rem;
 	border: 0;
+	border-radius: 0.5rem;
 	margin-block-end: 0.2rem;
 }
 
@@ -189,10 +199,15 @@ aside {
 	margin-block-end: 1rem;
 }
 
-button {
+.btn-send {
 	padding: 0.5rem 2rem;
 	border: 0.1rem solid black;
 	border-radius: 0.5rem;
+}
+
+.btn-send:hover {
+	background-color: rgb(204, 154, 4);
+	transition: 0.7s;
 }
 
 .line {
