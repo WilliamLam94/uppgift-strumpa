@@ -143,7 +143,7 @@ aside {
 }
 
 .sidebar-list {
-	margin-block-end: 1rem;
+	margin-block-end: 2.5rem;
 	font-weight: bold;
 }
 
@@ -162,23 +162,37 @@ aside {
 	background-color: gray;
 	border-radius: 0.5rem;
 	padding: 0.5rem;
+	border: 0;
+}
+
+.tag-text {
+	font-size: small;
 }
 
 /* Contact*/
 
-#name {
-	border: solid black;
-	width: 100%;
+.contact-header {
+	margin-block-end: 1rem;
 }
+
+#name {
+	border: 0.1rem solid black;
+	width: 100%;
+	margin-block-end: 1rem;
+}
+
 #textarea {
-	border: solid black;
+	border: 0.1rem solid black;
 	resize: none;
 	width: 100%;
+	margin-block-start: 0.5rem;
+	margin-block-end: 1rem;
 }
 
 button {
-	padding: 0.5rem;
-	border: solid black;
+	padding: 0.5rem 2rem;
+	border: 0.1rem solid black;
+	border-radius: 0.5rem;
 }
 
 .line {
