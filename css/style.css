@@ -130,7 +130,7 @@ ul {
 
 .wrapper {
 	display: flex;
-	gap: 15rem;
+	gap: 10rem;
 	margin-block-start: 2.5rem;
 }
 
@@ -139,7 +139,7 @@ ul {
 }
 
 aside {
-	margin-inline-end: 15rem;
+	margin-inline-end: 10rem;
 }
 
 h3 {
@@ -151,7 +151,7 @@ h3 {
 }
 
 .sidebar-list {
-	margin-block-end: 10rem;
+	margin-block-end: 8rem;
 	font-weight: bold;
 	width: 10rem;
 }
@@ -213,7 +213,7 @@ h3 {
 .line {
 	border: 0.5px solid gray;
 	margin-block-end: 1.5rem;
-	margin-block-start: 10rem;
+	margin-block-start: 8rem;
 }
 
 footer {
