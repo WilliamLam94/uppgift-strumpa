@@ -162,7 +162,7 @@ h3 {
 
 .sidebar-item {
 	color: gray;
-	font-size: 1.5rem;
+	font-size: 1.3rem;
 }
 
 .sidebar-tags {
@@ -172,7 +172,7 @@ h3 {
 }
 
 .tag-item {
-	background-color: gray;
+	background-color: lightgray;
 	padding: 0.5rem;
 	border: 0;
 	border-radius: 0.5rem;
@@ -210,7 +210,7 @@ h3 {
 }
 
 .btn-send:hover {
-	background-color: rgb(204, 154, 4);
+	background-color: rgb(252, 204, 61);
 	transition: 0.7s;
 }
 
