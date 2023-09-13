@@ -61,7 +61,7 @@ a:hover {
 	object-position: 100% 18%;
 }
 
-/* index innehåll */
+/* Home */
 
 main {
 	margin-top: 2.5rem;
@@ -213,6 +213,8 @@ h3 {
 	background-color: rgb(204, 154, 4);
 	transition: 0.7s;
 }
+
+/* Footer */
 
 .line {
 	border: 0.5px solid gray;
