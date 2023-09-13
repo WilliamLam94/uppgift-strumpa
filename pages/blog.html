@@ -14,46 +14,43 @@
 		/>
 	</head>
 	<body>
-		<!-- headern finns på alla sidorna med samma innehåll förutom att länkarna är olika -->
+		<!-- Sidhuvud med navigationslänkar -->
 		<header>
-			<section class="navbar-wrapper">
+			<nav class="navbar">
 				<h1><a href="../index.html">UwantSocks</a></h1>
-				<nav>
-					<ul class="navbar-list">
-						<li>
-							<a href="../index.html">Home </a>
-							<span class="nav-line">|</span>
-						</li>
-						<li>
-							<a class="navbar-button" href="blog.html">Blog </a>
-							<span class="nav-line">|</span>
-						</li>
-						<li>
-							<a href="about.html">About </a>
-							<span class="nav-line">|</span>
-						</li>
-						<li>
-							<a href="contact.html">Contact </a>
-						</li>
-					</ul>
-				</nav>
-			</section>
+				<ul class="navbar-list">
+					<li>
+						<a href="../index.html">Home </a>
+						<span class="nav-line">|</span>
+					</li>
+					<li>
+						<a class="navbar-button" href="blog.html">Blog </a>
+						<span class="nav-line">|</span>
+					</li>
+					<li>
+						<a href="about.html">About </a>
+						<span class="nav-line">|</span>
+					</li>
+					<li>
+						<a href="contact.html">Contact </a>
+					</li>
+				</ul>
+			</nav>
 			<div class="image-container">
 				<img class="top-img" src="../images/socks.jpg" alt="strumpor" />
 			</div>
 		</header>
 		<div class="wrapper">
-			<!-- main innerhåller layouten för varje sida -->
 			<main class="blog-main">
 				<h2>Blog</h2>
-				<h3 class="blog-article-header">Blog article 1</h3>
-				<section class="content-blog">
-					<img
-						class="catkeybord"
-						src="../images/catkeybord.gif"
-						alt="catkeybord"
-					/>
-					<article class="blog-paragraf">
+				<article>
+					<h3 class="blog-article-header">Blog article 1</h3>
+					<div class="blog-content">
+						<img
+							class="catkeybord"
+							src="../images/catkeybord.gif"
+							alt="catkeybord"
+						/>
 						<p>
 							Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos qui,
 							minima at aut sunt tempore autem nobis? Eligendi dolorem deserunt
@@ -63,16 +60,14 @@
 							repudiandae. Voluptatem ex deserunt voluptas in? Lorem ipsum dolor
 							sit amet consectetur adipisicing elit.
 						</p>
-					</article>
-				</section>
+					</div>
+				</article>
 				<div class="comments">
 					<p>4 Comments ° Author name ° 2023-09-13</p>
 				</div>
 			</main>
-			<!-- aside består av två sections med listor-->
 			<aside>
 				<section>
-					<!-- Ostrukturerad lista med innehåll av en lista-->
 					<h3 class="sidebar-header">Categories</h3>
 					<ul class="sidebar-list">
 						<li class="sidebar-item">Tube Socks</li>
@@ -82,24 +77,22 @@
 					</ul>
 				</section>
 				<section>
-					<!-- Ostrukturarad lista med knappar för jag ville
-						 att tagarna skulle vara "klickbara" -->
 					<h3 class="sidebar-header">Tags</h3>
 					<ul class="sidebar-tags">
-						<button class="tag-item">
+						<li class="tag-item">
 							<a class="tag-text" href="#">Fancy</a>
-						</button>
-						<button class="tag-item">
+						</li>
+						<li class="tag-item">
 							<a class="tag-text" href="#">Blue</a>
-						</button>
-						<button class="tag-item">
+						</li>
+						<li class="tag-item">
 							<a class="tag-text" href="#">Kids</a>
-						</button>
+						</li>
 					</ul>
 				</section>
 			</aside>
 		</div>
-		<!-- footer och hr finns på alla sidor med samma bygg -->
+		<!-- Sidfot med företagsinfo -->
 		<hr class="line" />
 		<footer>
 			<h5>UwantSocks AB, Nangijala 3A, Malmö</h5>

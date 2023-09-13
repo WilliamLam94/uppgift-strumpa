@@ -14,71 +14,70 @@
 		/>
 	</head>
 	<body>
-		<!-- headern finns på alla sidorna med samma innehåll förutom att länkarna är olika -->
+		<!-- Sidhuvud med navigationslänkar -->
 		<header>
-			<!--- section med innehåll av rubrik och navbar---->
-			<section class="navbar-wrapper">
+			<nav class="navbar">
 				<h1><a href="index.html">UwantSocks</a></h1>
-				<nav>
-					<!-- Lista med länkar till dom olika sidorna -->
-					<ul class="navbar-list">
-						<li>
-							<a class="navbar-button" href="index.html">Home </a>
-							<span class="nav-line">|</span>
-						</li>
-						<li>
-							<a href="pages/blog.html">Blog </a>
-							<span class="nav-line">|</span>
-						</li>
-						<li>
-							<a href="pages/about.html">About </a>
-							<span class="nav-line">|</span>
-						</li>
-						<li>
-							<a href="pages/contact.html">Contact </a>
-						</li>
-					</ul>
-				</nav>
-			</section>
+				<ul class="navbar-list">
+					<li>
+						<a class="navbar-button" href="index.html">Home </a>
+						<span class="nav-line">|</span>
+					</li>
+					<li>
+						<a href="pages/blog.html">Blog </a>
+						<span class="nav-line">|</span>
+					</li>
+					<li>
+						<a href="pages/about.html">About </a>
+						<span class="nav-line">|</span>
+					</li>
+					<li>
+						<a href="pages/contact.html">Contact </a>
+					</li>
+				</ul>
+			</nav>
+			<!-- Sidhuvud banner -->
 			<div class="image-container">
 				<img class="top-img" src="images/socks.jpg" alt="strumpor" />
 			</div>
 		</header>
-		<!-- main innerhåller layouten för varje sida -->
+		<!-- Huvudinnehåll med artikel -->
 		<main>
-			<h2>Beautiful socks</h2>
-			<section class="content-socks">
-				<article>
+			<article>
+				<h2>Beautiful socks</h2>
+				<div class="content-socks">
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-						illo nemo dignissimos inventore fugit reprehenderit voluptas eius
-						nisi dolorem nostrum labore non voluptate, quam deleniti? Dolorem
-						dicta obcaecati ducimus quidem, architecto officiis blanditiis natus
-						sequi tempora, nihil, fuga beatae similique? Iusto molestiae dolor
-						ex adipisci velit cum!
+						<span class="paragraph-content">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+							illo nemo dignissimos inventore fugit reprehenderit voluptas eius
+							nisi dolorem nostrum labore non voluptate, quam deleniti? Dolorem
+							dicta obcaecati ducimus quidem, architecto officiis blanditiis
+							natus sequi tempora, nihil, fuga beatae similique? Iusto molestiae
+						</span>
+						<span class="paragraph-content">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Accusamus, odio asperiores temporibus soluta, quos corrupti illum
+							impedit facilis beatae dicta, similique mollitia molestiae.
+							Officia vel dolorum quam doloremque nihil voluptatem suscipit
+							voluptate. Optio maxime illo quas architecto esse repudiandae ut
+						</span>
+						<span class="paragraph-content">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Accusamus, odio asperiores temporibus soluta, quos corrupti illum
+							impedit facilis beatae dicta, similique mollitia molestiae.
+							Officia vel dolorum quam doloremque nihil voluptatem suscipit
+							voluptate. Optio maxime illo quas architecto esse repudiandae ut
+						</span>
 					</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-						odio asperiores temporibus soluta, quos corrupti illum impedit
-						facilis beatae dicta, similique mollitia molestiae. Officia vel
-						dolorum quam doloremque nihil voluptatem suscipit voluptate. Optio
-						maxime illo quas architecto esse repudiandae ut incidunt harum et,
-						soluta, tempore expedita!
-					</p>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus,
-						odio asperiores temporibus soluta, quos corrupti illum impedit
-						facilis beatae dicta, similique mollitia molestiae. Officia vel
-						dolorum quam doloremque nihil voluptatem suscipit voluptate. Optio
-						maxime illo quas architecto esse repudiandae ut incidunt harum et,
-						soluta, tempore expedita! Sunt accusamus est officiis animi
-						molestiae consectetur.
-					</p>
-				</article>
-				<img class="content-image" src="images/shoesocks.jpg" alt="shoesocks" />
-			</section>
+					<img
+						class="content-image"
+						src="images/shoesocks.jpg"
+						alt="shoesocks"
+					/>
+				</div>
+			</article>
 		</main>
-		<!-- footer och hr finns på alla sidor med samma bygg -->
+		<!-- Sidfot med företagsinfo -->
 		<hr class="line" />
 		<footer>
 			<h5>UwantSocks AB, Nangijala 3A, Malmö</h5>

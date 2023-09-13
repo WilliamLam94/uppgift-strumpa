@@ -14,62 +14,53 @@
 		/>
 	</head>
 	<body>
-		<!-- headern finns på alla sidorna med samma innehåll förutom att länkarna är olika -->
+		<!-- Sidhuvud med navigationslänkar -->
 		<header>
-			<section class="navbar-wrapper">
+			<nav class="navbar">
 				<h1><a href="../index.html">UwantSocks</a></h1>
-				<nav>
-					<ul class="navbar-list">
-						<li>
-							<a href="../index.html">Home </a>
-							<span class="nav-line">|</span>
-						</li>
-						<li>
-							<a href="blog.html">Blog </a>
-							<span class="nav-line">|</span>
-						</li>
-						<li>
-							<a href="about.html">About </a>
-							<span class="nav-line">|</span>
-						</li>
-						<li>
-							<a class="navbar-button" href="contact.html">Contact </a>
-						</li>
-					</ul>
-				</nav>
-			</section>
+				<ul class="navbar-list">
+					<li>
+						<a href="../index.html">Home </a>
+						<span class="nav-line">|</span>
+					</li>
+					<li>
+						<a href="blog.html">Blog </a>
+						<span class="nav-line">|</span>
+					</li>
+					<li>
+						<a href="about.html">About </a>
+						<span class="nav-line">|</span>
+					</li>
+					<li>
+						<a class="navbar-button" href="contact.html">Contact </a>
+					</li>
+				</ul>
+			</nav>
 			<div class="image-container">
 				<img class="top-img" src="../images/socks.jpg" alt="strumpor" />
 			</div>
 		</header>
-		<!-- main innerhåller layouten för varje sida -->
+
 		<main>
 			<h2 class="contact-header">Contact Us</h2>
-			<section>
-				<!-- innerhåller labels, en med input för att skriva in namn och 
-					andra har en textarea för att man kan skriva sitt meddelande -->
-				<form>
-					<div>
-						<label for="name">Enter your name:</label>
-						<!-- required gör att man måste skriva in namn
-							 innan man kan skicka iväg meddelandet -->
-						<input type="text" name="name" id="name" required />
-					</div>
-					<div>
-						<label for="message">Message</label>
-						<textarea
-							name="textarea"
-							id="textarea"
-							cols="100"
-							rows="8"
-						></textarea>
-					</div>
-					<!-- knapp för att skicka in meddelandet-->
-					<button class="btn-send">Send</button>
-				</form>
-			</section>
+			<form>
+				<div>
+					<label for="name">Enter your name:</label>
+					<input type="text" name="name" id="name" required />
+				</div>
+				<div>
+					<label for="textarea"> Message </label>
+					<textarea
+						name="textarea"
+						id="textarea"
+						rows="10"
+						cols="10"
+					></textarea>
+				</div>
+				<button class="btn-send">Send</button>
+			</form>
 		</main>
-		<!-- footer och hr finns på alla sidor med samma innehåll -->
+		<!-- Sidfot med företagsinfo -->
 		<hr class="line" />
 		<footer>
 			<h5>UwantSocks AB, Nangijala 3A, Malmö</h5>
