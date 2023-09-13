@@ -169,6 +169,7 @@ h3 {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 0.5rem 1rem;
+	width: 8rem;
 }
 
 .tag-item {
@@ -201,6 +202,7 @@ h3 {
 	width: 100%;
 	margin-block-start: 0.5rem;
 	margin-block-end: 1rem;
+	overflow: scroll;
 }
 
 .btn-send {
