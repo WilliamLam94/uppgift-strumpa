@@ -40,9 +40,13 @@
 		<main>
 			<h2 class="contact-header">Contact Us</h2>
 			<section>
+				<!-- innerhåller labels, en med input för att skriva in namn och 
+					andra har en textarea för att man kan skriva sitt meddelande -->
 				<form>
 					<div>
 						<label for="name">Enter your name:</label>
+						<!-- required gör att man måste skriva in namn
+							 innan man kan skicka iväg meddelandet -->
 						<input type="text" name="name" id="name" required />
 					</div>
 					<div>
@@ -54,6 +58,7 @@
 							rows="15"
 						></textarea>
 					</div>
+					<!-- knapp för att skicka in meddelandet-->
 					<button class="btn-send">Send</button>
 				</form>
 			</section>
